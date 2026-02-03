@@ -13,8 +13,8 @@ function drawHelp() {
   // simple heart (easy + readable)
   fill(255, 90, 160);
   noStroke();
-  ellipse(width / 2 - 15, 300, 30, 30);
-  ellipse(width / 2 + 15, 300, 30, 30);
+  ellipse(width / 2 - 15, 300, 36, 30);
+  ellipse(width / 2 + 15, 300, 36, 30);
   triangle(width / 2 - 32, 308, width / 2 + 32, 308, width / 2, 350);
 
   // continue button
